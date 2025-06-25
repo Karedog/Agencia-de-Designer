@@ -1,5 +1,5 @@
 
-export default function Rodape(){
+export default function Card(){
     return (
         <div>
         </div>
