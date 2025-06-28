@@ -13,21 +13,24 @@ import Link from "next/link";
 export default function Rodape(){
     return (
         <footer id={estilo.rodape}>
-            <div className={estilo.caixa_rodape}>
-                <Image src={imgLogo} alt="Logotipo da loja, um 'M'" height={50} width={50}></Image>
-                <p className={estilo.rodape_texto}></p>
-                <p>Ajudamos a criar uma personalidade digital construindo sua marca no ambiente online utilizando estratégias,
-        ferramentas e tecnologias personalizadas.</p>
+            <div className={estilo.caixa_rodape_info}>
+                <div className={estilo.caixa_info}>
+                    <Image src={imgLogo} alt="Logotipo da loja, um 'M'" height={35} width={50}/>
+                    <p className={estilo.rodape_texto}></p>
+                    <p>Ajudamos a criar uma personalidade digital construindo sua marca no ambiente online utilizando estratégias,
+                        ferramentas e tecnologias personalizadas.</p>
+                </div>
+
                 <div className={estilo.caixa_social}>
-                    <Link href="#"><Image src={iconeFace.src} height={50} width={50}></Image></Link>
-                    <Link href="#"><Image src={IconeX.src} height={50} width={50}></Image></Link>
-                    <Link href="#"><Image src={iconeLinkedin.src} height={50} width={50}></Image></Link>
-                    <Link href="#"><Image src={IconeDribble.src} height={50} width={50}></Image></Link>
-                    <Link href="#"><Image src={iconeBehance.src} height={50} width={50}></Image></Link>
-                    <Link href="#"><Image src={iconeGoogle.src} height={50} width={50}></Image></Link>
+                    <Link href="#"><Image src={iconeFace.src} height={45} width={45}></Image></Link>
+                    <Link href="#"><Image src={IconeX.src} height={45} width={45}></Image></Link>
+                    <Link href="#"><Image src={iconeLinkedin.src} height={45} width={45}></Image></Link>
+                    <Link href="#"><Image src={IconeDribble.src} height={45} width={45}></Image></Link>
+                    <Link href="#"><Image src={iconeBehance.src} height={45} width={45}></Image></Link>
+                    <Link href="#"><Image src={iconeGoogle.src} height={45} width={45}></Image></Link>
                 </div>
             </div>
-            <div className={estilo.caixa_rodape}>
+            <div className={estilo.caixa_rodape_copyright}>
                 <p className={estilo.copyrigth}>Copyright 2025 <span>Douglas D. R.</span></p>
             </div>
         </footer>
