@@ -10,11 +10,20 @@
     
 }
 #header .icone{
-    height: 35px;
-    width: 35px;
+    padding: 10px;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #8a8fa3;
+    border-style:solid;
 }
 #header .img{
     height: 35px;
     width: 50px;
+}
+#header .botao_iconeLua{
+    height: 25px;
+    width: 25px;
 }
