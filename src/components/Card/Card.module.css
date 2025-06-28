@@ -1,0 +1,30 @@
+.card{
+    width: 300px;
+    padding: 70px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+    border: 1px #CCCCCC solid;
+    transition: background-color ease 0.3s ;
+}
+.card .card_dados{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+.card p{
+    font-size: 16px;
+}
+.card .card_dados h3{
+    font-size: 24px;
+}
+.card .card_dados small{
+    font-size: 14px;
+    font-style: italic;
+}
+.card:hover{
+    background-color: #feb633;
+    transition: background-color ease 0.3s ;
+}

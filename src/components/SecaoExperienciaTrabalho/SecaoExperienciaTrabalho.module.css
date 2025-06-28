@@ -6,6 +6,7 @@
     align-items: center;
     text-align: center;
     gap: 50px;
+    background-color: #f6f8fc;
 }
 #secao_experiencia .caixa_experiencia{
     width: 100%;
@@ -19,7 +20,9 @@
 }
 #secao_experiencia .caixa_experiencia h2{
     font-size: 45px;
+    color: #32333c;
 }
+
 #secao_experiencia .caixa_experiencia .linha_designer{
     width: 90px;
     height: 6px;
@@ -28,10 +31,12 @@
 }
 #secao_experiencia .caixa_experiencia p{
     font-size: 18px;
+    color: #8a8fa3;
 }
 
 #secao_experiencia .caixa_cards{
     width: 100%;
     max-width: 1024px;
     display: flex;
+    justify-content: center;
 }

@@ -2,6 +2,7 @@
     width: 100%;
     height: 90vh;
     display: flex;
+    background-color: #fafbfc;
 }
 #secao_banner .caixa_img_banner, #secao_banner .caixa_img_texto{
     width: 50%;
@@ -26,6 +27,9 @@
 #secao_banner .caixa_texto_banner h2{
     font-size: 50px;
     font-weight: normal;
+}
+#secao_banner .caixa_texto_banner h2,#secao_banner .caixa_texto_banner span,#secao_banner .caixa_texto_banner p{
+    color: #022144;
 }
 #secao_banner .caixa_texto_banner span{
     font-size: 50px;
