@@ -40,3 +40,9 @@
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 768px) {
+    #secao_experiencia .caixa_cards {
+        flex-direction: column;
+    }
+}

@@ -22,12 +22,12 @@ export default function Rodape(){
                 </div>
 
                 <div className={estilo.caixa_social}>
-                    <Link href="#"><Image src={iconeFace.src} height={45} width={45}></Image></Link>
-                    <Link href="#"><Image src={IconeX.src} height={45} width={45}></Image></Link>
-                    <Link href="#"><Image src={iconeLinkedin.src} height={45} width={45}></Image></Link>
-                    <Link href="#"><Image src={IconeDribble.src} height={45} width={45}></Image></Link>
-                    <Link href="#"><Image src={iconeBehance.src} height={45} width={45}></Image></Link>
-                    <Link href="#"><Image src={iconeGoogle.src} height={45} width={45}></Image></Link>
+                    <Link href="#"><Image alt="Icone Facebook" src={iconeFace.src} height={45} width={45}></Image></Link>
+                    <Link href="#"><Image alt="Icone X" src={IconeX.src} height={45} width={45}></Image></Link>
+                    <Link href="#"><Image alt="Icone Linkedin" src={iconeLinkedin.src} height={45} width={45}></Image></Link>
+                    <Link href="#"><Image alt="Icone Dribble" src={IconeDribble.src} height={45} width={45}></Image></Link>
+                    <Link href="#"><Image alt="Icone Behance" src={iconeBehance.src} height={45} width={45}></Image></Link>
+                    <Link href="#"><Image alt="Icone Google" src={iconeGoogle.src} height={45} width={45}></Image></Link>
                 </div>
             </div>
             <div className={estilo.caixa_rodape_copyright}>

@@ -35,3 +35,9 @@
     font-size: 50px;
     font-weight: bold;
 }
+
+@media screen and (max-width: 768px) {
+        #secao_banner .caixa_img_banner{
+        display: none;
+    }
+}
