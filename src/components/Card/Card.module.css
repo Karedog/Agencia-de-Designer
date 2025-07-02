@@ -7,6 +7,7 @@
     text-align: left;
     border: 1px #CCCCCC solid;
     transition: background-color ease 0.3s ;
+    color: var(--cor-texto-card);
 }
 .card .card_dados{
     display: flex;
@@ -26,10 +27,10 @@
 }
 .card:hover{
     background-color: #feb633;
-    transition: background-color ease 0.3s ;
+    color: #6d6363;
 }
 @media screen and (max-width: 768px) {
     .card{
-    width: 100%;
-}
+        width: 100%;
+    }
 }

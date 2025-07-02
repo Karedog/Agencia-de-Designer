@@ -4,4 +4,24 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+:root {
+  --cor-fundo-geral: #ffffff;
+  --cor-fundo-rodape: #ffffff;
+  --cor-linha-rodape: #CCCCCC;
+  --cor-fundo-experiencia: #f6f8fc;
+  --cor-texto-experiencia: #8a8fa3;
+  --cor-titulo-experiencia: #32333c;
+  --cor-texto-card: #000000;
+}
+body.tema_escuro {
+  --cor-fundo-geral: #252525;
+  --cor-fundo-rodape: #252525;
+  --cor-linha-rodape: #747272;
+  --cor-fundo-experiencia: #393838;
+  --cor-texto-experiencia: #CCCCCC;
+  --cor-titulo-experiencia: #CCCCCC;
+  --cor-texto-card: #CCCCCC;
 }

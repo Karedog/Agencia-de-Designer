@@ -1,5 +1,5 @@
 #rodape{
-    background-color: #FFFFFF;
+    background-color: var(--cor-fundo-rodape);
     width: 100%;
 }
 
@@ -33,6 +33,7 @@
     justify-content: center;
 }
 #rodape .caixa_rodape_copyright{
+    border-top: 1px solid var(--cor-linha-rodape);
     padding: 20px 0;
     width: 100%;
     text-align: center;

@@ -2,7 +2,7 @@
     height: 10vh;
     display: flex;
     justify-content: space-between;
-    background-color: #FFFFFF;
+    background-color: var(--cor-fundo-geral);
     width: 100%;
     position: fixed;
     padding: 20px;

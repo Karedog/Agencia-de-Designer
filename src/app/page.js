@@ -1,3 +1,5 @@
+"use client"
+
 import styles from "./page.module.css";
 import Topo from "@/components/Topo/Topo";
 import SecaoBanner from "@/components/SecaoBanner/SecaoBanner";
